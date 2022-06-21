@@ -1,0 +1,20 @@
+{
+  "name": "openwineddatabase",
+  "version": "1.0.0",
+  "description": "Test Automation Assesment Cypress Liudmila",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "cypress open",
+    "test-edge-app-installed": "cypress run --spec cypress/e2e/testopenwineinstalled.cy.js --browser edge",
+    "test-chrome-app-installed": "cypress run --spec cypress/e2e/testopenwineinstalled.cy.js --browser chrome",
+    "test-firefox-app-installed": "cypress run --spec cypress/e2e/testopenwineinstalled.cy.js --browser firefox",
+    "test-apirest": "cypress run --spec cypress/e2e/apitestingopenwine.cy.js --browser chrome"
+
+  },
+  "author": "Liudmila Reyes Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.1.0"
+  }
+}
